@@ -1,0 +1,107 @@
+@import url('http://allfont.ru/allfont.css?fonts=ds-digital');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.clock{
+    width: 228px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.top{
+    width: 228px;
+    height: 110px;
+    position: relative; 
+}
+#top_1{
+    position: absolute;
+    top: 10px;
+    left: 55px;
+}
+#top_2{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+.Trivet{
+    width: 17px;
+    height: 20px;
+    background: linear-gradient(180deg, #000000 0%, #9D9D9D 67.71%);
+    border-radius: 3px;
+}
+.riv_1{
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+.riv_2{
+    position: absolute;
+    top: 90px;
+    left: 183px;
+}
+.bottom{
+    width: 228px;
+    height: 110px;
+    position: relative;
+}
+#bottom_1{
+    position: absolute;
+    top: 0px;
+    left: 45px;
+}
+#bottom_2{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+}
+.riv_3{
+    position: absolute;
+    top: 0px;
+    left: 45px;
+}
+.riv_4{
+    position: absolute;
+    top: 0px;
+    left: 188px;
+}
+.Brivet{
+    width: 17px;
+    height: 20px;
+   background: linear-gradient(180deg, #000000 0%, #9D9D9D 67.71%);
+   border-radius: 3px;
+   transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.display{
+    width: 228px;
+    height: 260px;
+    background-blend-mode: soft-light;
+    border: 10px solid black;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: #414141;
+}
+.time{
+    font-size: 80px;
+    font-family: 'alarm clock', sans-serif;
+    font-weight: 700;
+}
+.date{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.sec{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
